@@ -15,6 +15,7 @@ Then navigate your browser to `http://localhost:<port>/app/index.html` to see th
 
 ### Based On
 
-AngularJS - http://angularjs.org/
-Bootstrap - http://getbootstrap.com/
-SB Admin  - http://startbootstrap.com/sb-admin
+* AngularJS - http://angularjs.org/
+* Angular Seed - https://github.com/angular/angular-seed
+* Bootstrap - http://getbootstrap.com/
+* SB Admin  - http://startbootstrap.com/sb-admin
