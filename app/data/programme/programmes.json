@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Carrier Readiness Certificate A",
+        "code": "CRC-A",
+        "modules": "PRR, PRL, PRS, PRW, PRN, POR, POR, POL, POS, POW, PON, WPLCP, WPLCV, WPLW, WPN, ORI, LAST",
+        "duration": 243,
+        "price_foreigner": 5227.00,
+        "price_nonwts": 3427.00,
+        "price_wts": 466.60
+    }, {
+        "id": 2,
+        "name": "Be Confident Package B",
+        "code": "BPCB",
+        "modules": "PR, WPLF, CRMO, LPDO, AECMS, MPPE, PEO, OCPS, DSE, PO",
+        "duration": 320,
+        "price_foreigner": 5227.00,
+        "price_nonwts": 3427.00,
+        "price_wts": 466.60
+    }, {
+        "id": 3,
+        "name": "Be Confident Package C",
+        "code": "BPCC",
+        "modules": "PR, WPLF, CRMO, LPDO, AECMS, MPPE, PEO, OCPS, DSE, PO",
+        "duration": 320,
+        "price_foreigner": 8000.00,
+        "price_nonwts": 8000.00,
+        "price_wts": 800.00
+    }
+]

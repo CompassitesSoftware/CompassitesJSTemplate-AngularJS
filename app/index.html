@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Compassites :: AngularJS Template</title>
+
+        <link rel="icon" href="img/favicon.ico" />
+
+        <!-- Bootstrap core CSS -->
+        <link  rel="stylesheet" href="css/bootstrap.css" />
+        <link  rel="stylesheet" href="css/daterangepicker-bs3.css" />
+        <link  rel="stylesheet" href="css/morris.css" />
+        <link  rel="stylesheet" href="css/animations.css" />
+
+        <!-- Add custom CSS here -->
+        <link rel="stylesheet" href="css/sb-admin.css" />
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <!-- Sidebar -->
+            <nav class="navbar navbar-fixed-top" role="navigation">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo.png" width="240" height="53" alt="Compassites Software" />
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <!-- Side Nav -->
+
+                    <!-- Side Nav End -->
+
+                    <ul class="nav navbar-nav navbar-right navbar-user">
+                        <li class="dropdown messages-dropdown">
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+            <!-- Sidebar end -->
+
+            <div class="view-container">
+                <div ng-view class="view-frame"></div>
+            </div>
+
+        </div><!-- /#wrapper -->
+
+        <script defer src="lib/jquery/jquery-1.10.2.js"></script>
+        <script defer src="lib/angular/angular.js"></script>
+
+        <script defer src="lib/angular/angular-route.js"></script>
+        <script defer src="lib/angular/angular-resource.js"></script>
+        <script defer src="lib/angular/angular-animate.js"></script>
+
+        <script defer src="lib/bootstrap/bootstrap.js"></script>
+        <script defer src="lib/bootstrap/moment.js"></script>
+        <script defer src="lib/bootstrap/daterangepicker.js"></script>
+
+        <script defer src="lib/morris/raphael.js"></script>
+        <script defer src="lib/morris/morris.js"></script>
+
+        <script defer src="js/app.js"></script>
+        <script defer src="js/controllers.js"></script>
+        <script defer src="js/services.js"></script>
+        <!--<script defer src="js/filters.js"></script>-->
+        <!--<script defer src="js/directives.js"></script>-->
+    </body>
+</html>
